@@ -1,31 +1,33 @@
 <template>
   <div class="profile">
-    <div class="card">
-      <div class="cover">
-        <img
-          class="avatar"
-          src="https://images.unsplash.com/photo-1596663095213-b660314b4da8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-          alt
-        />
-      </div>
-      <div class="content">
-        <h2 class="name">Jane Doe</h2>
-        <p class="role">UI Developer</p>
-
-        <div class="intro">
-          <p>Jane is a designer and developer who loves JavaScript and CSS.</p>
+    <transition>
+      <div class="card">
+        <div class="cover">
+          <img
+            class="avatar"
+            src="https://images.unsplash.com/photo-1596663095213-b660314b4da8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+            alt
+          />
         </div>
+        <div class="content">
+          <h2 class="name">Jane Doe</h2>
+          <p class="role">UI Developer</p>
 
-        <div class="socials">
-          <router-link to="/" class="social twitter">
-            <img src="@/assets/Twitter_Logo_Blue.png" alt />
-          </router-link>
-          <router-link to="/" class="social instagram">
-            <img src="@/assets/instagram.png" alt />
-          </router-link>
+          <div class="intro">
+            <p>Jane is a designer and developer who loves JavaScript and CSS.</p>
+          </div>
+
+          <div class="socials">
+            <router-link to="/" class="social twitter">
+              <img src="@/assets/Twitter_Logo_Blue.png" alt />
+            </router-link>
+            <router-link to="/" class="social instagram">
+              <img src="@/assets/instagram.png" alt />
+            </router-link>
+          </div>
         </div>
       </div>
-    </div>
+    </transition>
 
     <div class="section">
       <h3 class="section-title">Courses from the author</h3>
