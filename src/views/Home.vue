@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <h1>Test Application</h1>
     <button @click="show = !show">{{ show ? 'Close' : 'Open' }}</button>
     <transition name="fade">
       <div v-if="show">
