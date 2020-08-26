@@ -3,11 +3,7 @@
     <transition>
       <div class="card">
         <div class="cover">
-          <img
-            class="avatar"
-            src="https://images.unsplash.com/photo-1596663095213-b660314b4da8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-            alt
-          />
+          <img class="avatar" src="@/assets/profile-avatar.jpeg" alt />
         </div>
         <div class="content">
           <h2 class="name">Jane Doe</h2>
