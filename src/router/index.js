@@ -28,6 +28,16 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ '../views/Profile.vue'),
   },
+  {
+    path: '/hamburger',
+    name: 'Hamburger',
+    component: () => import('@/views/Hamburger.vue'),
+  },
+  {
+    path: '/orangepeel',
+    name: 'OrangePeel',
+    component: () => import('@/views/OrangePeel.vue'),
+  },
 ];
 
 const router = new VueRouter({
