@@ -66,6 +66,7 @@ export default {
   background-image: url("https://images.unsplash.com/photo-1579546928686-286c9fbde1ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
   background-position: center;
   background-size: cover;
+  text-align: center;
 
   .section {
     background-color: #fff;
